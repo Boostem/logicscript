@@ -1,0 +1,1150 @@
+test    1: 00001 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: 01
+  G1gat /1: 01
+  G3gat /0: 01
+  G3gat /1: 01
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 01
+  G11gat /1: 01
+  G6gat /1: 01
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
+test    2: 01001 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 01
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test    3: 01111 00
+  G22gat /1: * 10
+  G10gat /1: 00
+  G22gat /0: 00
+  G16gat->G22gat /1: 00
+  G3gat->G10gat /1: 00
+  G1gat /1: * 10
+  G3gat /0: * 11
+  G3gat /1: 00
+  G16gat /1: 00
+  G16gat /0: * 11
+  G11gat->G16gat /1: * 11
+  G2gat /1: 00
+  G11gat /0: 00
+  G3gat->G11gat /1: 00
+  G11gat /1: * 11
+  G6gat /1: 00
+  G23gat /1: * 01
+  G19gat /1: 00
+  G23gat /0: 00
+  G16gat->G23gat /1: 00
+  G11gat->G19gat /1: * 01
+  G7gat /1: 00
+test    4: 00000 00
+  G22gat /1: * 10
+  G10gat /1: 00
+  G22gat /0: 00
+  G16gat->G22gat /1: 00
+  G3gat->G10gat /1: 00
+  G1gat /1: 00
+  G3gat /0: 00
+  G3gat /1: 00
+  G16gat /1: 00
+  G16gat /0: * 11
+  G11gat->G16gat /1: 00
+  G2gat /1: * 11
+  G11gat /0: 00
+  G3gat->G11gat /1: 00
+  G11gat /1: 00
+  G6gat /1: 00
+  G23gat /1: * 01
+  G19gat /1: 00
+  G23gat /0: 00
+  G16gat->G23gat /1: 00
+  G11gat->G19gat /1: 00
+  G7gat /1: * 01
+test    5: 01000 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test    6: 00011 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: 01
+  G1gat /1: 01
+  G3gat /0: 01
+  G3gat /1: * 00
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: * 00
+  G11gat /1: 01
+  G6gat /1: 01
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
+test    7: 01101 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 01
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 00
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test    8: 11111 10
+  G22gat /1: 10
+  G10gat /1: * 00
+  G22gat /0: * 00
+  G16gat->G22gat /1: 10
+  G3gat->G10gat /1: 10
+  G1gat /1: 10
+  G3gat /0: * 11
+  G3gat /1: 10
+  G16gat /1: 10
+  G16gat /0: * 11
+  G11gat->G16gat /1: * 11
+  G2gat /1: 10
+  G11gat /0: 10
+  G3gat->G11gat /1: 10
+  G11gat /1: * 11
+  G6gat /1: 10
+  G23gat /1: * 11
+  G19gat /1: 10
+  G23gat /0: 10
+  G16gat->G23gat /1: 10
+  G11gat->G19gat /1: * 11
+  G7gat /1: 10
+test    9: 11010 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: * 10
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: * 00
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   10: 10111 10
+  G22gat /1: 10
+  G10gat /1: * 00
+  G22gat /0: * 00
+  G16gat->G22gat /1: 10
+  G3gat->G10gat /1: 10
+  G1gat /1: 10
+  G3gat /0: * 01
+  G3gat /1: 10
+  G16gat /1: 10
+  G16gat /0: * 11
+  G11gat->G16gat /1: 10
+  G2gat /1: 10
+  G11gat /0: 10
+  G3gat->G11gat /1: 10
+  G11gat /1: * 11
+  G6gat /1: 10
+  G23gat /1: * 11
+  G19gat /1: 10
+  G23gat /0: 10
+  G16gat->G23gat /1: 10
+  G11gat->G19gat /1: * 11
+  G7gat /1: 10
+test   11: 10001 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: * 11
+  G1gat /1: 01
+  G3gat /0: 01
+  G3gat /1: * 11
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 01
+  G11gat /1: 01
+  G6gat /1: 01
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
+test   12: 01100 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 00
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   13: 01100 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 00
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   14: 01001 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 01
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   15: 11100 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: 11
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 10
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 10
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 10
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   16: 00000 00
+  G22gat /1: * 10
+  G10gat /1: 00
+  G22gat /0: 00
+  G16gat->G22gat /1: 00
+  G3gat->G10gat /1: 00
+  G1gat /1: 00
+  G3gat /0: 00
+  G3gat /1: 00
+  G16gat /1: 00
+  G16gat /0: * 11
+  G11gat->G16gat /1: 00
+  G2gat /1: * 11
+  G11gat /0: 00
+  G3gat->G11gat /1: 00
+  G11gat /1: 00
+  G6gat /1: 00
+  G23gat /1: * 01
+  G19gat /1: 00
+  G23gat /0: 00
+  G16gat->G23gat /1: 00
+  G11gat->G19gat /1: 00
+  G7gat /1: * 01
+test   17: 01010 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: * 00
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: * 00
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   18: 11000 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   19: 10010 00
+  G22gat /1: * 10
+  G10gat /1: 00
+  G22gat /0: 00
+  G16gat->G22gat /1: 00
+  G3gat->G10gat /1: * 10
+  G1gat /1: 00
+  G3gat /0: 00
+  G3gat /1: * 10
+  G16gat /1: 00
+  G16gat /0: * 11
+  G11gat->G16gat /1: 00
+  G2gat /1: * 11
+  G11gat /0: 00
+  G3gat->G11gat /1: 00
+  G11gat /1: 00
+  G6gat /1: 00
+  G23gat /1: * 01
+  G19gat /1: 00
+  G23gat /0: 00
+  G16gat->G23gat /1: 00
+  G11gat->G19gat /1: 00
+  G7gat /1: * 01
+test   20: 11010 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: * 10
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: * 00
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   21: 10000 00
+  G22gat /1: * 10
+  G10gat /1: 00
+  G22gat /0: 00
+  G16gat->G22gat /1: 00
+  G3gat->G10gat /1: * 10
+  G1gat /1: 00
+  G3gat /0: 00
+  G3gat /1: * 10
+  G16gat /1: 00
+  G16gat /0: * 11
+  G11gat->G16gat /1: 00
+  G2gat /1: * 11
+  G11gat /0: 00
+  G3gat->G11gat /1: 00
+  G11gat /1: 00
+  G6gat /1: 00
+  G23gat /1: * 01
+  G19gat /1: 00
+  G23gat /0: 00
+  G16gat->G23gat /1: 00
+  G11gat->G19gat /1: 00
+  G7gat /1: * 01
+test   22: 01010 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: * 00
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: * 00
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   23: 11011 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: * 10
+  G16gat /1: * 01
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: * 00
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   24: 11101 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: 11
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: 11
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 10
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 10
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   25: 10111 10
+  G22gat /1: 10
+  G10gat /1: * 00
+  G22gat /0: * 00
+  G16gat->G22gat /1: 10
+  G3gat->G10gat /1: 10
+  G1gat /1: 10
+  G3gat /0: * 01
+  G3gat /1: 10
+  G16gat /1: 10
+  G16gat /0: * 11
+  G11gat->G16gat /1: 10
+  G2gat /1: 10
+  G11gat /0: 10
+  G3gat->G11gat /1: 10
+  G11gat /1: * 11
+  G6gat /1: 10
+  G23gat /1: * 11
+  G19gat /1: 10
+  G23gat /0: 10
+  G16gat->G23gat /1: 10
+  G11gat->G19gat /1: * 11
+  G7gat /1: 10
+test   26: 01000 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   27: 10001 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: * 11
+  G1gat /1: 01
+  G3gat /0: 01
+  G3gat /1: * 11
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 01
+  G11gat /1: 01
+  G6gat /1: 01
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
+test   28: 10111 10
+  G22gat /1: 10
+  G10gat /1: * 00
+  G22gat /0: * 00
+  G16gat->G22gat /1: 10
+  G3gat->G10gat /1: 10
+  G1gat /1: 10
+  G3gat /0: * 01
+  G3gat /1: 10
+  G16gat /1: 10
+  G16gat /0: * 11
+  G11gat->G16gat /1: 10
+  G2gat /1: 10
+  G11gat /0: 10
+  G3gat->G11gat /1: 10
+  G11gat /1: * 11
+  G6gat /1: 10
+  G23gat /1: * 11
+  G19gat /1: 10
+  G23gat /0: 10
+  G16gat->G23gat /1: 10
+  G11gat->G19gat /1: * 11
+  G7gat /1: 10
+test   29: 10100 10
+  G22gat /1: 10
+  G10gat /1: * 00
+  G22gat /0: * 00
+  G16gat->G22gat /1: 10
+  G3gat->G10gat /1: 10
+  G1gat /1: 10
+  G3gat /0: * 00
+  G3gat /1: 10
+  G16gat /1: 10
+  G16gat /0: * 11
+  G11gat->G16gat /1: 10
+  G2gat /1: * 11
+  G11gat /0: 10
+  G3gat->G11gat /1: 10
+  G11gat /1: 10
+  G6gat /1: 10
+  G23gat /1: * 11
+  G19gat /1: 10
+  G23gat /0: 10
+  G16gat->G23gat /1: 10
+  G11gat->G19gat /1: 10
+  G7gat /1: * 11
+test   30: 00001 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: 01
+  G1gat /1: 01
+  G3gat /0: 01
+  G3gat /1: 01
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 01
+  G11gat /1: 01
+  G6gat /1: 01
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
+test   31: 00101 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: 01
+  G1gat /1: * 11
+  G3gat /0: 01
+  G3gat /1: 01
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 01
+  G11gat /1: 01
+  G6gat /1: * 00
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
+test   32: 10101 11
+  G22gat /1: 11
+  G10gat /1: * 01
+  G22gat /0: * 01
+  G16gat->G22gat /1: 11
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: * 01
+  G3gat /1: 11
+  G16gat /1: 11
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 10
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 10
+  G23gat /1: 11
+  G19gat /1: * 10
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   33: 01000 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   34: 01001 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 01
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   35: 01101 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 01
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 00
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   36: 00100 00
+  G22gat /1: * 10
+  G10gat /1: 00
+  G22gat /0: 00
+  G16gat->G22gat /1: 00
+  G3gat->G10gat /1: 00
+  G1gat /1: * 10
+  G3gat /0: 00
+  G3gat /1: 00
+  G16gat /1: 00
+  G16gat /0: * 11
+  G11gat->G16gat /1: 00
+  G2gat /1: * 11
+  G11gat /0: 00
+  G3gat->G11gat /1: 00
+  G11gat /1: 00
+  G6gat /1: 00
+  G23gat /1: * 01
+  G19gat /1: 00
+  G23gat /0: 00
+  G16gat->G23gat /1: 00
+  G11gat->G19gat /1: 00
+  G7gat /1: * 01
+test   37: 01010 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: * 00
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: * 00
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   38: 00110 00
+  G22gat /1: * 10
+  G10gat /1: 00
+  G22gat /0: 00
+  G16gat->G22gat /1: 00
+  G3gat->G10gat /1: 00
+  G1gat /1: * 10
+  G3gat /0: 00
+  G3gat /1: 00
+  G16gat /1: 00
+  G16gat /0: * 11
+  G11gat->G16gat /1: 00
+  G2gat /1: 00
+  G11gat /0: 00
+  G3gat->G11gat /1: 00
+  G11gat /1: 00
+  G6gat /1: 00
+  G23gat /1: * 01
+  G19gat /1: 00
+  G23gat /0: 00
+  G16gat->G23gat /1: 00
+  G11gat->G19gat /1: 00
+  G7gat /1: 00
+test   39: 11000 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   40: 01101 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 01
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 00
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   41: 01010 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: * 01
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: * 00
+  G16gat /1: * 00
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: * 00
+  G11gat /1: 11
+  G6gat /1: 11
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   42: 10101 11
+  G22gat /1: 11
+  G10gat /1: * 01
+  G22gat /0: * 01
+  G16gat->G22gat /1: 11
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: * 01
+  G3gat /1: 11
+  G16gat /1: 11
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 10
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 10
+  G23gat /1: 11
+  G19gat /1: * 10
+  G23gat /0: * 10
+  G16gat->G23gat /1: 11
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   43: 00111 00
+  G22gat /1: * 10
+  G10gat /1: 00
+  G22gat /0: 00
+  G16gat->G22gat /1: 00
+  G3gat->G10gat /1: 00
+  G1gat /1: * 10
+  G3gat /0: * 01
+  G3gat /1: 00
+  G16gat /1: 00
+  G16gat /0: * 11
+  G11gat->G16gat /1: 00
+  G2gat /1: 00
+  G11gat /0: 00
+  G3gat->G11gat /1: 00
+  G11gat /1: * 01
+  G6gat /1: 00
+  G23gat /1: * 01
+  G19gat /1: 00
+  G23gat /0: 00
+  G16gat->G23gat /1: 00
+  G11gat->G19gat /1: * 01
+  G7gat /1: 00
+test   44: 00001 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: 01
+  G1gat /1: 01
+  G3gat /0: 01
+  G3gat /1: 01
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 01
+  G11gat /1: 01
+  G6gat /1: 01
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
+test   45: 11100 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: 11
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 10
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 10
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 10
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   46: 00100 00
+  G22gat /1: * 10
+  G10gat /1: 00
+  G22gat /0: 00
+  G16gat->G22gat /1: 00
+  G3gat->G10gat /1: 00
+  G1gat /1: * 10
+  G3gat /0: 00
+  G3gat /1: 00
+  G16gat /1: 00
+  G16gat /0: * 11
+  G11gat->G16gat /1: 00
+  G2gat /1: * 11
+  G11gat /0: 00
+  G3gat->G11gat /1: 00
+  G11gat /1: 00
+  G6gat /1: 00
+  G23gat /1: * 01
+  G19gat /1: 00
+  G23gat /0: 00
+  G16gat->G23gat /1: 00
+  G11gat->G19gat /1: 00
+  G7gat /1: * 01
+test   47: 00001 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: 01
+  G1gat /1: 01
+  G3gat /0: 01
+  G3gat /1: 01
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 01
+  G11gat /1: 01
+  G6gat /1: 01
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
+test   48: 10001 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: * 11
+  G1gat /1: 01
+  G3gat /0: 01
+  G3gat /1: * 11
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: 01
+  G11gat /1: 01
+  G6gat /1: 01
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
+test   49: 11100 11
+  G22gat /1: 11
+  G10gat /1: 11
+  G22gat /0: * 01
+  G16gat->G22gat /1: 11
+  G3gat->G10gat /1: 11
+  G1gat /1: 11
+  G3gat /0: 11
+  G3gat /1: 11
+  G16gat /1: * 10
+  G16gat /0: 11
+  G11gat->G16gat /1: 11
+  G2gat /1: 11
+  G11gat /0: * 10
+  G3gat->G11gat /1: 11
+  G11gat /1: 11
+  G6gat /1: * 10
+  G23gat /1: 11
+  G19gat /1: 11
+  G23gat /0: * 10
+  G16gat->G23gat /1: * 10
+  G11gat->G19gat /1: 11
+  G7gat /1: 11
+test   50: 10011 01
+  G22gat /1: * 11
+  G10gat /1: 01
+  G22gat /0: 01
+  G16gat->G22gat /1: 01
+  G3gat->G10gat /1: * 11
+  G1gat /1: 01
+  G3gat /0: 01
+  G3gat /1: * 10
+  G16gat /1: 01
+  G16gat /0: * 11
+  G11gat->G16gat /1: 01
+  G2gat /1: * 11
+  G11gat /0: * 00
+  G3gat->G11gat /1: * 00
+  G11gat /1: 01
+  G6gat /1: 01
+  G23gat /1: 01
+  G19gat /1: * 00
+  G23gat /0: * 00
+  G16gat->G23gat /1: 01
+  G11gat->G19gat /1: 01
+  G7gat /1: 01
